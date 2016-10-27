@@ -1,0 +1,4 @@
+task getHomeDir << {
+    println gradle.gradleHomeDir
+    println gradle.version
+}
